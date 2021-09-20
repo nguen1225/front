@@ -41,6 +41,6 @@
 				"\t",	
 				"</html>"
 			],
-			"description": "Log output to console"
+			"description": "htmlの土台"
 		}		
 }
