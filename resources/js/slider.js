@@ -44,7 +44,7 @@
 
 
 // Params
-var sliderSelector = '.swiper-container',
+let sliderSelector = '.swiper-container',
     options = {
       init: false,
       loop: false,
@@ -89,9 +89,7 @@ var sliderSelector = '.swiper-container',
         }
       }
     };
-var mySwiper = new Swiper(sliderSelector, options);
+let mySwiper = new Swiper(sliderSelector, options);
 
 // Initialize slider
 mySwiper.init();
-
-Resources
